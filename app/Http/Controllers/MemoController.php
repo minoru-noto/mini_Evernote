@@ -36,7 +36,8 @@ class MemoController extends Controller
         $CreateMemo->content = $request->input('content');
         $CreateMemo->save();
 
-        return redirect(route('home',['id'=> $CreateMemo->id]));
+        // return redirect(route('home',['id'=> $CreateMemo->id]));
+        return redirect(route('home'));
 
     }
 
