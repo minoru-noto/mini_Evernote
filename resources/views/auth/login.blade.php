@@ -12,6 +12,18 @@
 
         <div>
         
+        <div class="mb-2">
+            <div class="form-group row">
+                <label for="" class="col-md-3 col-form-label text-md-right"></label>
+
+                <div class=" col-md-6 border-bottom pb-4">
+                    <a href="/login/google" class="btn btn-outline-success w-100 " role="button">
+                        Googleで続行
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <form method="POST" action="{{ route('login') }}">
             @csrf
 
