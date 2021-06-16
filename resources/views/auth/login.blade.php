@@ -11,7 +11,8 @@
         </div>
 
         <div>
-        <form method="POST" action="{{ route('register') }}">
+        
+        <form method="POST" action="{{ route('login') }}">
             @csrf
 
             <div class="form-group row">
